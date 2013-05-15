@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAEF2292174324A00055032E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAEF2291174324A00055032E /* UIKit.framework */; };
+		AAEF2294174324A00055032E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAEF2293174324A00055032E /* Foundation.framework */; };
+		AAEF2296174324A00055032E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAEF2295174324A00055032E /* CoreGraphics.framework */; };
+		AAEF229C174324A00055032E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AAEF229A174324A00055032E /* InfoPlist.strings */; };
+		AAEF229E174324A00055032E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEF229D174324A00055032E /* main.m */; };
+		AAEF22A2174324A00055032E /* xcode_senchatouchAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEF22A1174324A00055032E /* xcode_senchatouchAppDelegate.m */; };
+		AAEF22A4174324A00055032E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AAEF22A3174324A00055032E /* Default.png */; };
+		AAEF22A6174324A00055032E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAEF22A5174324A00055032E /* Default@2x.png */; };
+		AAEF22A8174324A00055032E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAEF22A7174324A00055032E /* Default-568h@2x.png */; };
+		AAEF22AB174324A00055032E /* xcode_senchatouchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEF22AA174324A00055032E /* xcode_senchatouchViewController.m */; };
+		AAEF22AE174324A00055032E /* xcode_senchatouchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAEF22AC174324A00055032E /* xcode_senchatouchViewController.xib */; };
+		AAEF22B517432B440055032E /* www in Resources */ = {isa = PBXBuildFile; fileRef = AAEF22B417432B440055032E /* www */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AAEF228E174324A00055032E /* xcode+senchatouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "xcode+senchatouch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAEF2291174324A00055032E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AAEF2293174324A00055032E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AAEF2295174324A00055032E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AAEF2299174324A00055032E /* xcode+senchatouch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "xcode+senchatouch-Info.plist"; sourceTree = "<group>"; };
+		AAEF229B174324A00055032E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AAEF229D174324A00055032E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AAEF229F174324A00055032E /* xcode+senchatouch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "xcode+senchatouch-Prefix.pch"; sourceTree = "<group>"; };
+		AAEF22A0174324A00055032E /* xcode_senchatouchAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xcode_senchatouchAppDelegate.h; sourceTree = "<group>"; };
+		AAEF22A1174324A00055032E /* xcode_senchatouchAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xcode_senchatouchAppDelegate.m; sourceTree = "<group>"; };
+		AAEF22A3174324A00055032E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AAEF22A5174324A00055032E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AAEF22A7174324A00055032E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AAEF22A9174324A00055032E /* xcode_senchatouchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xcode_senchatouchViewController.h; sourceTree = "<group>"; };
+		AAEF22AA174324A00055032E /* xcode_senchatouchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xcode_senchatouchViewController.m; sourceTree = "<group>"; };
+		AAEF22AD174324A00055032E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/xcode_senchatouchViewController.xib; sourceTree = "<group>"; };
+		AAEF22B417432B440055032E /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = "xcode+senchatouch/www"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAEF228B174324A00055032E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAEF2292174324A00055032E /* UIKit.framework in Frameworks */,
+				AAEF2294174324A00055032E /* Foundation.framework in Frameworks */,
+				AAEF2296174324A00055032E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAEF2285174324A00055032E = {
+			isa = PBXGroup;
+			children = (
+				AAEF22B417432B440055032E /* www */,
+				AAEF2297174324A00055032E /* xcode+senchatouch */,
+				AAEF2290174324A00055032E /* Frameworks */,
+				AAEF228F174324A00055032E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAEF228F174324A00055032E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAEF228E174324A00055032E /* xcode+senchatouch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAEF2290174324A00055032E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAEF2291174324A00055032E /* UIKit.framework */,
+				AAEF2293174324A00055032E /* Foundation.framework */,
+				AAEF2295174324A00055032E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AAEF2297174324A00055032E /* xcode+senchatouch */ = {
+			isa = PBXGroup;
+			children = (
+				AAEF22A0174324A00055032E /* xcode_senchatouchAppDelegate.h */,
+				AAEF22A1174324A00055032E /* xcode_senchatouchAppDelegate.m */,
+				AAEF22A9174324A00055032E /* xcode_senchatouchViewController.h */,
+				AAEF22AA174324A00055032E /* xcode_senchatouchViewController.m */,
+				AAEF22AC174324A00055032E /* xcode_senchatouchViewController.xib */,
+				AAEF2298174324A00055032E /* Supporting Files */,
+			);
+			path = "xcode+senchatouch";
+			sourceTree = "<group>";
+		};
+		AAEF2298174324A00055032E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAEF2299174324A00055032E /* xcode+senchatouch-Info.plist */,
+				AAEF229A174324A00055032E /* InfoPlist.strings */,
+				AAEF229D174324A00055032E /* main.m */,
+				AAEF229F174324A00055032E /* xcode+senchatouch-Prefix.pch */,
+				AAEF22A3174324A00055032E /* Default.png */,
+				AAEF22A5174324A00055032E /* Default@2x.png */,
+				AAEF22A7174324A00055032E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAEF228D174324A00055032E /* xcode+senchatouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAEF22B1174324A00055032E /* Build configuration list for PBXNativeTarget "xcode+senchatouch" */;
+			buildPhases = (
+				AAEF228A174324A00055032E /* Sources */,
+				AAEF228B174324A00055032E /* Frameworks */,
+				AAEF228C174324A00055032E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "xcode+senchatouch";
+			productName = "xcode+senchatouch";
+			productReference = AAEF228E174324A00055032E /* xcode+senchatouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAEF2286174324A00055032E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = "xcode+senchatouch";
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = com.xiaoweb;
+			};
+			buildConfigurationList = AAEF2289174324A00055032E /* Build configuration list for PBXProject "xcode+senchatouch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AAEF2285174324A00055032E;
+			productRefGroup = AAEF228F174324A00055032E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAEF228D174324A00055032E /* xcode+senchatouch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAEF228C174324A00055032E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAEF229C174324A00055032E /* InfoPlist.strings in Resources */,
+				AAEF22A4174324A00055032E /* Default.png in Resources */,
+				AAEF22A6174324A00055032E /* Default@2x.png in Resources */,
+				AAEF22A8174324A00055032E /* Default-568h@2x.png in Resources */,
+				AAEF22AE174324A00055032E /* xcode_senchatouchViewController.xib in Resources */,
+				AAEF22B517432B440055032E /* www in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAEF228A174324A00055032E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAEF229E174324A00055032E /* main.m in Sources */,
+				AAEF22A2174324A00055032E /* xcode_senchatouchAppDelegate.m in Sources */,
+				AAEF22AB174324A00055032E /* xcode_senchatouchViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AAEF229A174324A00055032E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAEF229B174324A00055032E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AAEF22AC174324A00055032E /* xcode_senchatouchViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAEF22AD174324A00055032E /* en */,
+			);
+			name = xcode_senchatouchViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAEF22AF174324A00055032E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AAEF22B0174324A00055032E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAEF22B2174324A00055032E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "xcode+senchatouch/xcode+senchatouch-Prefix.pch";
+				INFOPLIST_FILE = "xcode+senchatouch/xcode+senchatouch-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AAEF22B3174324A00055032E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "xcode+senchatouch/xcode+senchatouch-Prefix.pch";
+				INFOPLIST_FILE = "xcode+senchatouch/xcode+senchatouch-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAEF2289174324A00055032E /* Build configuration list for PBXProject "xcode+senchatouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAEF22AF174324A00055032E /* Debug */,
+				AAEF22B0174324A00055032E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAEF22B1174324A00055032E /* Build configuration list for PBXNativeTarget "xcode+senchatouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAEF22B2174324A00055032E /* Debug */,
+				AAEF22B3174324A00055032E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAEF2286174324A00055032E /* Project object */;
+}

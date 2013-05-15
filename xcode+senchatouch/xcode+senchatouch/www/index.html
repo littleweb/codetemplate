@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html manifest="" lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <script id="microloader" type="text/javascript" src="sencha-touch-all.js"></script>
+    <script id="microloader" type="text/javascript" src="app.js"></script>
+    <link rel="stylesheet" type="text/css" href="app/assets/css/sencha-touch.css">
+</head>
+<body>
+	<div id="loading" class="loading">
+		<script type="text/javascript">
+	        if(screen.height > 480){
+				document.write('<img src="../Default-568h@2x.png" width="320" />');  
+            }else{
+				document.write('<img src="../Default.png" width="320" />');       
+            }
+		</script>
+	</div>
+</body>
+</html>
